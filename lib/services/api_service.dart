@@ -4,7 +4,7 @@ class ApiService {
   final Dio _dio;
 
   ApiService() : _dio = Dio(BaseOptions(
-    baseUrl: 'https://6a2c11833e2b60ab038f68c4.mockapi.io/api/v1',
+    baseUrl: 'https://6a33d2918248ee962fa479fd.mockapi.io/api/v1',
     connectTimeout: const Duration(seconds: 10),
     receiveTimeout: const Duration(seconds: 10),
   ));
